@@ -177,11 +177,11 @@ const IndexPage = () => (
                 thoughts, and interests with an image. Users can follow other
                 users, create and like posts, and comment on posts.
               </p>
-              <a href="/#" className="special">
+              <a href="http://melloo.xyz/#/" className="special">
                 Visit
               </a>
             </article>
-            <article>
+            {/* <article>
               <a href="/#" className="image">
                 <img
                   src="https://res.cloudinary.com/john-personal-proj/image/upload/v1567018773/random/Screen_Shot_2019-08-28_at_1.54.07_PM_2_m6kfl0.png"
@@ -196,20 +196,24 @@ const IndexPage = () => (
               <a href="/#" className="special">
                 Visit
               </a>
-            </article>
-            {/* <article>
+            </article> */}
+            <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img
+                  src="https://media-exp1.licdn.com/media-proxy/ext?w=1024&h=517&f=n&hash=vNQLv%2BPkWHIHpyFypTzbuaj0vrg%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWi7K5Tff7Xy9kBFfXpTjQAyeLu1STe0QI7vLdzqe48lipS3JMb5agYUbhl4j3lK6w"
+                  alt=""
+                />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">Peep</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                A live chat application implemented using sockets. Users can
+                create an account and log in to add friends to private and group
+                messages.
               </p>
-              <a href="/#" className="special">
+              <a href="http://peep.chat" className="special">
                 Learn more
               </a>
-            </article> */}
+            </article>
             {/* <article>
               <a href="/#" className="image">
                 <img
